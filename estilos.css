@@ -1,0 +1,212 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    height:100vh;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(0, 0, 0);
+}
+.frase{
+  font-size: 1.5rem;
+  text-align:center;
+  color: rgb(140, 17, 17);
+  font-style: oblique;
+}
+.titulos{
+  color: rgb(226, 137, 20);
+  text-align: center;
+}
+.btn-rojo{
+    text-decoration: none;
+    color: white;
+    font: 0.8rem;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    background-color:rgb(250, 4, 4);
+    font-weight: 500;
+    padding: 0.8rem 0.8rem;
+    display: inline-block;
+
+}
+.el-inicio>a{
+  color:rgb(179, 179, 179);
+  display: flex;
+   text-decoration: none;
+   border-radius: 10px;
+ }
+
+/*Aqui iniciamos con las secciones*/
+
+/*primera seccion secciones*/
+#barra-navegacion{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color:rgb(235, 147, 30);
+    padding: 0.2rem;
+
+}
+
+#logo{
+
+    margin:0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-stretch: wider;
+    font-size: 1rem;
+}
+
+nav > a{
+   text-decoration: none;
+   color: white;
+   border-radius: 10px;
+   padding: 30px
+}
+
+nav > a:hover{
+    color: rgb(245, 8, 154);
+}
+header{
+  background: url(/media/fondos/maquillaje_profesional.jpg);
+  height: 100vh;
+  background-size: cover;
+
+}
+.contenedor{
+max-width: 1920px;
+width: 90%;
+margin:auto;
+}
+
+#primera-seccion-contenido{
+   margin-top: 8rem;
+   display: flex;
+   flex-direction: column;
+   text-align:center;
+
+
+}
+
+#primera-seccion-contenido >p{
+      text-transform: capitalize;
+      font-family:sans-serif;
+      font-size:1.5rem;
+      margin-bottom: 0.5rem;
+      font-weight:bold;
+}
+
+#primera-seccion-contenido >hr{
+     width: 11.5rem;
+     border-color: rgb(246, 1, 112);
+}
+#primera-seccion-contenido >h1{
+  font-family: cursive;
+  text-transform:uppercase;
+  font-size:3rem;
+  font-weight:700;
+  margin-bottom:100rem;
+  text-align: center;
+}
+
+/*segunda seccion secciones*/
+#segunda-seccion{
+  max-width: 1280px;
+}
+.contenedor-productos1{
+display: flex;
+justify-content: space-around;
+ }
+.contenedor-productos2{
+   display: flex;
+   justify-content: space-around;
+ }
+ .contenedor-productos3{
+    display: flex;
+    justify-content: space-around;
+  }
+  .contenedor-productos4{
+     display: flex;
+     justify-content: space-around;
+   }
+
+   .boton{
+     display:flex;
+     justify-content:space-between;
+
+    }
+#segunda-seccion>h2{
+  display:flex;
+}
+
+
+/*tercera seccion secciones*/
+.marcas-de-los-productos >ul{
+  display: flex;
+  justify-content: space-around;
+  font-family:cursive;
+  }
+  .marcas-de-los-productos1{
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+    }
+
+    /*cuarta seccion secciones*/
+
+    .nuevos-productos1{
+       display: flex;
+       justify-content: space-around;
+     }
+     .nuevos-productos2{
+        display: flex;
+        justify-content: space-around;
+      }
+
+
+/*quinta seccion secciones*/
+#quinta-seccion{
+
+  }
+
+/*sexta seccion secciones*/
+
+#sexta-seccion{
+color:rgb(8, 8, 8);
+
+font-family:serif;
+  }
+
+#sexta-seccion>h3{
+  border-radius:10px;
+
+ width: 100%;
+ font-family:'IBM Plex Serif', serif;
+}
+  /*septima seccion secciones*/
+
+#septima-seccion{
+  background-color: rgba(176, 38, 61, 0.71);
+  padding: 1rem 1rem;
+
+}
+#septima-seccion>h2{
+  color:rgb(125, 84, 41);
+}
+
+.title{
+  display: flex;
+}
+
+
+
+footer{
+  background-color:black;
+  color: white;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
